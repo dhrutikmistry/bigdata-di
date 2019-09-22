@@ -1,0 +1,27 @@
+{
+	"sourceMetadata": {
+		"sourceName": "SFTPserver",
+		"sourceDesc": " ",
+		"sourceType": "",
+		"sourceDirName": "name of source directory name",
+		"sourceDirpath": "folder/path/",
+		"isUnderDateDir": "",
+		"filesToCopy": [
+			{
+				"fileNamePrefix": "some-data",
+				"fileNameDateTimePattern": "2018-12-01T05:00:00Z",
+				"fileNameSufix": ".csv",
+				"isCopyfileToHDFS": true,
+				"type": "fileType",
+				"columnDelimiter": "|",
+				"isHeaderPresent": true,
+				"customHeader": ""
+			}
+		]
+	},
+	"targetHdfsConfig": {
+		"hdfsRootDir": " ",
+		"isFileUnderDateDir": true,
+		"datePattern": ""
+	}
+}
